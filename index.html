@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Krub:wght@400;700&family=Lato:wght@100&family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Las Cañas</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Las Cañas <span>Resort</span> </h1>
+    </header>
+
+    <div class="navegadorBackground">
+        <nav class="navegacionPrincipal contenedor">
+            <a href="index.html">Inicio</a> 
+            <a href="secciones/nosotros.html">Nosotros</a> 
+            <a href=#>Casas</a>    
+            <a href=#>Contacto</a>
+        </nav>    
+    </div>
+    <section class="hero">
+        <div class="contenidoHero">
+            <h2 class="titulo">Donde descansa el silencio...</h2>
+
+            
+            <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                Mar de Cobo, Buenos Aires</p>
+    
+            <a class="boton" href="#">Contactar</a>
+        </div><!--.contenidoHero-->
+    </section>
+
+    
+    <main class="contenedor sombra">
+        <h2>Las Cañas</h2>
+        <div class="servicios">
+
+            <section class="servicio">
+                <h3>Las Cañas 1</h3>
+                <div class="iconos casa1"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque impedit mollitia ut? Eum dignissimos in eos, 
+                quae eaque accusantium libero incidunt iusto nam culpa sit id illum dolor delectus dolores!</p>    
+            </section>
+
+            <section class="servicio">
+                <h3>Las Cañas 2</h3>
+                <div class="iconos casa2"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis consectetur modi asperiores, 
+                nihil aliquid qui voluptates et sint temporibus provident! Architecto nulla laudantium amet earum placeat qui, 
+                quasi eaque! A?</p>
+            </section>
+            
+            <section class="servicio">
+                <h3>Las Cañas 3</h3>
+                <div class="iconos casa3"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, adipisci, excepturi at dicta voluptas 
+                veritatis consequatur dolor ex repudiandae fugit mollitia sed incidunt doloribus doloremque minus obcaecati eum magni 
+                dolorem?</p>
+            </section>
+        </div><!--.servicios-->
+
+        <section>
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactanos llenando todos los campos</legend>
+                    <div class="contenedorCampos">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input class="inputText" type="text" name="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="telefono">Telefono</label>
+                            <input class="inputText" type="tel" name="telefono" placeholder="Telefono">
+                        </div>
+                        <div class="campo">
+                            <label for="correo">Correo</label>
+                            <input class="inputText" type="email" name="correo" placeholder="Mail">
+                        </div>
+                        <div class="campo">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="inputText" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                    </div>
+                    <div class="alinearDerecha flex">
+                        <input class="boton w100" type="submit" value="Enviar">
+                    </div>
+               
+                </fieldset>
+            </form>
+        </section>
+    
+    </main>
+   
+    
+    <footer class="footer">
+        <p>Todos los derechos reservados. Manuel Cosovschi</p>
+    </footer>
+    
+    
+</body>
+</html>
