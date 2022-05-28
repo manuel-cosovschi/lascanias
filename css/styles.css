@@ -48,10 +48,24 @@ h1,h2,h3{
 .alinearDerecha{
     justify-content: flex-end;
 }
-
+@media (min-width: 0px) {
+    .navegadorBackground{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 20%;
+    }
+ }
+ @media (min-width: 768px) {
+    .navegadorBackground{
+        margin: unset;
+        border-radius: 0%;
+    }
+ }
 .navegadorBackground{
     background-color: var(--secundario);
 }
+
 .navs{
     margin-bottom: 1rem;
 }
