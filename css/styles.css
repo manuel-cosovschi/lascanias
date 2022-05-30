@@ -192,7 +192,7 @@ h1,h2,h3{
     background-color: var(--gris);
     width: min(60rem, 100%);/*Utilizar el valor mas chico*/
     margin: 0 auto;/*Siempre que tengo un elemento como un formulario ya que el padre no tiene un display flex*/
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 1rem;
 
 }
@@ -285,12 +285,8 @@ img{
 
 /*CONTACTO*/
 
-.principal{
-    display: grid;
-    grid-template-columns: 80% 20%; 
-    
-    
-}
-.precios{
-    
+.contactBorde{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
