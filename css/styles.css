@@ -283,3 +283,14 @@ img{
     margin-top: 2rem;
 }
 
+/*CONTACTO*/
+
+.principal{
+    display: grid;
+    grid-template-columns: 80% 20%; 
+    
+    
+}
+.precios{
+    
+}
