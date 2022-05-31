@@ -194,9 +194,7 @@ h1,h2,h3{
     margin: 0 auto;/*Siempre que tengo un elemento como un formulario ya que el padre no tiene un display flex*/
     padding: 1.5rem;
     border-radius: 1rem;
-
 }
-
 .formulario fieldset{
     border: none;
 }
@@ -291,25 +289,18 @@ img{
     justify-content: center;
 }
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
-
-
 .header {
   position:relative;
   text-align:center;
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color:white;
 }
-
-
-
 .flex { 
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-
 .waves {
   position:relative;
   width: 100%;
@@ -318,14 +309,12 @@ img{
   min-height:100px;
   max-height:150px;
 }
-
 .content {
   position:relative;
   height:20vh;
   text-align:center;
   background-color: white;
 }
-
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
@@ -353,7 +342,6 @@ img{
     transform: translate3d(85px,0,0);
   }
 }
-
 @media (max-width: 768px) {
   .waves {
     height:40px;
