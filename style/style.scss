@@ -1,3 +1,6 @@
+@import "generales";
+@import "nav";
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
 :root{
     --blanco: #ffffff;
     --negro: #212121;
@@ -88,10 +91,12 @@ h1,h2,h3{
     width: 90%;
     text-align: center;
     border: none;
+
+    &input[type="submit"]{
+        margin-top: 5rem;
+    }
 }
-.boton input[type="submit"]{
-    margin-top: 5rem;
-}
+ 
 @media (min-width: 768px) {
    .boton{
        width: auto;
@@ -161,36 +166,7 @@ h1,h2,h3{
         column-gap: 1rem;
     }
 }
-.servicio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.servicio h3{
-    color: var(--secundario);
-    font-weight: normal;
-}
-.servicio p{
-    line-height: 2;
-    text-align: center;
-}
-.servicio .iconos{
-    height: 30rem;
-    width: 30rem;
-    border-radius: 20%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.servicio .casa1{
-    background-image: url(../img/casa\ 1.JPG);
-}
-.servicio .casa2{
-    background-image: url(../img/casa\ 2.JPG);
-}
-.servicio .casa3{
-    background-image: url(../img/casa\ 3.JPG);
-}
+
 .formulario{
     background-color: var(--gris);
     width: min(60rem, 100%);/*Utilizar el valor mas chico*/
