@@ -1,14 +1,12 @@
 @import "generales";
 @import "nav";
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
-:root{
-    --blanco: #ffffff;
-    --negro: #212121;
-    --primario: #FFC107;
-    --gris: #757575;
-    --secundario: #0097A7;
-    --grisClaro: #DFE9F3;
-}
+$--blanco:#ffffff;
+$--negro: #212121;
+$--primario: #FFC107;
+$--gris: #757575;
+$--secundario: #0097A7;
+$--grisClaro: #DFE9F3;
 html{
     font-size: 62.5%;
     box-sizing: border-box;
